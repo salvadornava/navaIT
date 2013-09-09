@@ -1,0 +1,140 @@
+a
+{
+	color: #DD4F24;
+}
+body
+{
+	background: #EFEFEF;
+	color: #4C4C4C;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+header
+{
+	background: #434343;
+	color: white;
+	margin: 0;
+	padding: 0.5em;
+}
+header figure, header h1
+{
+	display: inline-block;
+	vertical-align: top;
+}
+header h1
+{
+	font-size: 1em;
+	font-weight: normal;
+	margin: 1em 0 0 1em;
+	width: 60%;S
+}
+header #avatar_header
+{
+	/*border: 2px solid peru;*/
+	float: right;
+	padding: 1em 1em 0 0;
+}
+header #avatar_header figcaption
+{
+	background: #22BCE0;
+	float: right;
+	height: 50px;
+	padding: 0 2px;
+}
+header #avatar_header img
+{
+	width: 50px;
+	float: left;
+}
+header #logo_header img
+{
+	width: 80px
+}
+nav
+{
+	background: #878787;
+	font-size: 0.9em;
+}
+nav ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;	
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+
+nav #felchita_nav
+{
+	background: #22BCE0;
+	padding: 0 0.5em;
+	text-decoration: none;
+}
+
+nav #publicar_nav 
+{
+	float: right;
+	margin-right: 0;
+}
+nav #publicar_nav a
+{
+	background: #DD4F24;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+#contenido
+{
+	margin: 1em;
+}
+#contenido .item_articulo
+{
+	background: white;
+}
+#contenido .item_articulo p
+{
+	color: #7A7A7A;
+	font-size: 0.9em;
+
+}
+#contenido .item_articulo .datos_item .tag_item
+{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.2em 0.5em;
+	text-decoration:none;
+
+}
+#contenido .item_articulo .imagen_post
+{
+	float: left;
+}
+#contenido .item_articulo .imagen_post img
+{
+	width: 120;
+	float: left;
+	padding: 0 1em 0 0;
+}
+#contenido .item_articulo .titulo_post
+{
+	font-size: 1em;
+	font-style: italic;
+	padding: 0.5em 0.5em 0;
+}
+#contenido .item_articulo .titulo_post a
+{
+	color: #444;
+	text-decoration: none;
+}
